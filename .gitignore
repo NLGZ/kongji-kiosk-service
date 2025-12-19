@@ -1,16 +1,25 @@
-# Compiled class file
+# ===============================
+# OS
+# ===============================
+.DS_Store
+
+# ===============================
+# Java
+# ===============================
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
 *.ctxt
+hs_err_pid*
+replay_pid*
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# ===============================
+# Maven
+# ===============================
+target/
 
-# Package Files #
+# ===============================
+# Package Files
+# ===============================
 *.jar
 *.war
 *.nar
@@ -19,6 +28,14 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# ===============================
+# IDE
+# ===============================
+.idea/
+*.iml
+
+# ===============================
+# Spring (SECRET)
+# ===============================
+application.yml
+application-*.yml
